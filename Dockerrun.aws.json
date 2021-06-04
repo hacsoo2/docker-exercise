@@ -16,7 +16,7 @@
     },
     {
       "name": "nginx",
-      "image": "382707088245.dkr.ecr.ap-northeast-2.amazonaws.com/test-nginx",
+      "image": "537041990806.dkr.ecr.ap-northeast-2.amazonaws.com/test-nginx",
       "hostname": "nginx",
       "essential": true,
       "memory": 64,
