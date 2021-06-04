@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   api:
-    image: 382707088245.dkr.ecr.ap-northeast-2.amazonaws.com/test-api
+    image: 537041990806.dkr.ecr.ap-northeast-2.amazonaws.com/test-api
     build:
         context: ./api
     volumes:
