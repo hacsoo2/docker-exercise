@@ -1,0 +1,18 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "api",
+      "image": "382707088245.dkr.ecr.ap-northeast-2.amazonaws.com/test-api",
+      "hostname": "api",
+      "essential": true,
+      "memory": 128,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 5000
+        }
+      ]
+    }
+  ]
+}
