@@ -13,6 +13,20 @@
           "containerPort": 5000
         }
       ]
+    },
+    {
+      "name": "nginx",
+      "image": "382707088245.dkr.ecr.ap-northeast-2.amazonaws.com/test-nginx",
+      "hostname": "nginx",
+      "essential": true,
+      "memory": 64,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 80
+        }
+      ],
+      "links": ["auth", "api"]
     }
   ]
 }
